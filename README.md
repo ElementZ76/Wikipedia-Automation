@@ -1,5 +1,7 @@
 # Wikipedia Automation
 
+![Java](https://img.shields.io/badge/Java-21-orange) ![Selenium](https://img.shields.io/badge/Selenium-4.x-green) ![Cucumber](https://img.shields.io/badge/Cucumber-BDD-blue) ![TestNG](https://img.shields.io/badge/TestNG-7.x-red) ![Maven](https://img.shields.io/badge/Build-Maven-yellow)
+
 A basic test automation project for Wikipedia using Selenium, Cucumber, and TestNG. This repository contains practice scripts for automating interactions with the Wikipedia website.
 
 ## Tech Stack
