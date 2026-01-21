@@ -10,10 +10,6 @@ A basic test automation project for Wikipedia using Selenium, Cucumber, and Test
 * **Test Runner:** TestNG
 * **Build Tool:** Maven
 
-Here is a generic `README.md` file designed to help anyone clone and run an existing automation project in Eclipse.
-
----
-
 # How to Setup & Run This Project in Eclipse
 
 This guide provides step-by-step instructions on how to clone this repository, import it correctly into the Eclipse IDE, and run the automation tests.
@@ -23,6 +19,7 @@ This guide provides step-by-step instructions on how to clone this repository, i
 * **Eclipse IDE:** [Download Eclipse for Java Developers](https://www.eclipse.org/downloads/packages/)
 * **Java (JDK):** Ensure JDK is installed and configured in your system path.
 * **Git:** [Download Git](https://www.google.com/search?q=https://git-scm.com/downloads)
+* **TestNG Suite:** Ensure TestNG is configured on Eclipse. Refer to Troubleshooting for TestNG installation instructions.
 
 ## 1. Clone the Repository
 Open your terminal or command prompt and run:
@@ -47,9 +44,9 @@ git clone https://github.com/ElementZ76/Wikipedia-Automation.git
 ## 3. How to Run the Tests
 ### Run via TestNG
 
-1. In the **Project Explorer**, locate the `testng.xml` file (usually in the root or `src/test/resources`).
-2. Right-click `testng.xml`.
-3. Select **Run As** > **TestNG Suite**.
+1. In the **Project Explorer**, locate the `TestRunner.java` file (`src/test/java/runners`).
+2. Right-click `TestRunner.java`.
+3. Select **Run As** > **TestNG Test**. (refer to Troubleshooting if you cannot find the TestNG option)
 
 ## Troubleshooting
 
@@ -57,6 +54,11 @@ git clone https://github.com/ElementZ76/Wikipedia-Automation.git
 * Right-click the project > **Maven** > **Update Project...**
 * Check **Force Update of Snapshots/Releases**.
 * Click **OK**.
+
+*  **Cannot see "TestNG Test" under "Run As" in TestRunner file:**
+*  Download "TestNG for Eclipse" from Eclipse Marketplace. (Help > Eclipse Marketplace > Search for "TestNG" and download)
+*  After downloading, force update the project.
+*  Right click on Wikipedia-Automation > Maven > Update Project > Select "Force update of Snapshots/Releases" > Click OK.
 
 * `src/test/java`: Contains the Step Definitions and Test Runner files.
 * `src/test/resources`: Contains the Cucumber Feature files (`.feature`).
