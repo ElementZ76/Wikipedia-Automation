@@ -50,12 +50,12 @@ git clone https://github.com/ElementZ76/Wikipedia-Automation.git
 
 ## Troubleshooting
 
-* **Red Exclamation Mark on Project:**
+### Red Exclamation Mark on Project
 * Right-click the project > **Maven** > **Update Project...**
 * Check **Force Update of Snapshots/Releases**.
 * Click **OK**.
 
-*  **Cannot see "TestNG Test" under "Run As" in TestRunner file:**
+### Cannot see "TestNG Test" under "Run As" in TestRunner file:
 *  Download "TestNG for Eclipse" from Eclipse Marketplace. (Help > Eclipse Marketplace > Search for "TestNG" and download)
 *  After downloading, force update the project.
 *  Right click on Wikipedia-Automation > Maven > Update Project > Select "Force update of Snapshots/Releases" > Click OK.
